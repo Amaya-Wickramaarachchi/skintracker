@@ -1,0 +1,27 @@
+{
+  "name": "skintracker",
+  "version": "1.0.0",
+  "description": "A basic web application to track your daily skincare routine.",
+  "main": ".commitlintrc.js",
+  "scripts": {
+    "release": "standard-version",
+    "test": "echo \"No tests specified yet\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaya-Wickramaarachchi/skintracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amaya-Wickramaarachchi/skintracker/issues"
+  },
+  "homepage": "https://github.com/Amaya-Wickramaarachchi/skintracker#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "husky": "^8.0.0"
+  }
+}
